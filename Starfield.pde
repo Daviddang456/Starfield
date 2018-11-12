@@ -1,6 +1,6 @@
 public int radius = 0;
 public boolean Counter = false;
-public int numParticles = 102;
+public int numParticles = 52;
 Particle[] particles;
 
 void setup(){
