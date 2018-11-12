@@ -47,7 +47,6 @@ public void mousePressed(){
 }
 
 class NormalParticle implements Particle{
-	//your code here
   protected double myX;
   protected double myY; 
   private double mySpeed;
@@ -86,7 +85,6 @@ class NormalParticle implements Particle{
   public void setMySpeed(){
     mySpeed = (Math.random()*15);
   }
-  
 }
 
 interface Particle{
