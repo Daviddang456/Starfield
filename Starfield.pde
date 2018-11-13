@@ -5,7 +5,11 @@ Particle[] particles;
 
 void setup(){
   size(600,600);
+<<<<<<< HEAD
   particles= new Particle[numParticles];
+=======
+	particles= new Particle[numParticles];
+>>>>>>> 9465f101150c2369934c3215678c618bb5545801
 
   for(int i = 0; i < numParticles;i++){
     particles[i] = new NormalParticle();
@@ -32,6 +36,10 @@ public void mousePressed(){
   Counter = true;
   
   if(Counter == true){
+<<<<<<< HEAD
+=======
+    delay(1);
+>>>>>>> 9465f101150c2369934c3215678c618bb5545801
     Counter = false;
     
     for(int i = 1; i < numParticles; i++){
